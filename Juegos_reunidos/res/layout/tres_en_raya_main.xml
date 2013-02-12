@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tres_en_raya_imagen"
+    android:orientation="vertical"
+    android:padding="25sp" >
+
+    <TextView
+        android:id="@+id/texto_principal_tres_en_raya"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.08"
+        android:gravity="center|top"
+        android:paddingBottom="150sp"
+        android:shadowColor="@color/blanco"
+        android:shadowRadius="10"
+        android:text="@string/texto_principal_tres_en_raya"
+        android:textColor="@color/color_texto_sudoku"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/continuar_boton_tres_en_raya"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:alpha="1"
+        android:gravity="center"
+        android:text="@string/continuar" />
+
+    <Button
+        android:id="@+id/juego_nuevo_boton_tres_en_raya"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:alpha="1"
+        android:gravity="center"
+        android:text="@string/juego_nuevo" />
+
+    <Button
+        android:id="@+id/instrucciones_boton_tres_en_raya"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:alpha="1"
+        android:gravity="center"
+        android:text="@string/instrucciones" />
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_texto_sudoku">#ffffffff</color>
+    <color name="fondo_sudoku">#ff000000</color>
+    <color name="negroSuave">#ff353230</color>
+    <color name="blanco">#ffffffff</color>
+    <color name="seleccion">#775B5B5B</color>
+    <color name="negro">#ff000000</color>
+    <color name="fondo_buscaminas">#ff000000</color>
+    <color name="color_texto_buscaminas">#ffffffff</color>
+    <color name="gris">#ff636363</color>
+    <color name="transparente">#00000000</color>
+
+</resources>

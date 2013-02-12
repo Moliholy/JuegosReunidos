@@ -1,0 +1,55 @@
+<resources>
+
+    <string name="app_name">JUEGOS REUNIDOS</string>
+    <string name="texto_principal_tres_en_raya">TRES EN RAYA</string>
+    <string name="continuar">CONTINUAR</string>
+    <string name="juego_nuevo">JUEGO NUEVO</string>
+    <string name="acerca_de">ACERCA DE</string>
+    <string name="texto_principal_sudoku">SUDOKU</string>
+    <string name="acerca_de_text">Juegos Reunidos desarrollados por José Molina Colmenero, estudiante de Grado en Ingeniería Informática en la Universidad de Jaén, España.</string>
+    <string name="title_activity_main">Juegos reunidos</string>
+    <string name="title_activity_sudoku">Sudoku</string>
+    <string name="title_activity_introduccion_numero">Introduccion Numero</string>
+    <string name="title_activity_tres_en_raya">Tres en Raya</string>
+    <string name="juego_terminado">¡Enhorabuena! ¡Has completado el juego!</string>
+    <string name="elegir_dificultad">Elige la dificultad</string>
+    <string name="dificultad_facil">Fácil</string>
+    <string name="dificultad_normal">Normal</string>
+    <string name="dificultad_dificil">Difícil</string>
+    <string name="introducir_numero_titulo">Selecciona el número</string>
+    <string name="tres_en_raya_main">TRES EN RAYA</string>
+    <string name="juegos_sudoku">SUDOKU</string>
+    <string name="juegos_tres_en_raya">TRES EN RAYA</string>
+    <string name="texto_principal_programa">JUEGOS REUNIDOS</string>
+    <string name="sudoku_main">SUDOKU</string>
+    <string name="instrucciones_sudoku_text">El juego consiste en rellenar las 81 casillas con números del 1 al 9, de forma que no se repita ninguno en cada fila, columna, o sección de 3x3.</string>
+    <string name="instrucciones">INSTRUCCIONES</string>
+    <string name="instrucciones_tres_en_raya_text">El juego consiste en colocar tres de tus fichas en cualquier fila, columna, o diagonal antes que el rival.</string>
+    <string name="resultado_empate">EMPATE</string>
+    <string name="resultado_jugador1">GANA EL JUGADOR 1</string>
+    <string name="resultado_jugador2">GANA EL JUGADOR 2</string>
+    <string name="title_juego_terminado">Juego terminado</string>
+    <string name="jugar_de_nuevo">Jugar de nuevo</string>
+    <string name="title_share">Compartir</string>
+    <string name="share_mensaje">¡Nuevo juego completado! Descarga la aplicación de Juegos Reunidos para Android de aquí: https://www.dropbox.com/s/22b7z4gg3lcs86z/Juegos%20reunidos.apk vía @MoliHoly</string>
+    <string name="compartir">Elige uno</string>
+    <string name="title_activity_buscaminas">Buscaminas</string>
+    <string name="texto_principal_buscaminas">BUSCAMINAS</string>
+    <string name="juegos_buscaminas">BUSCAMINAS</string>
+    <string name="instrucciones_buscaminas">El juego consiste en seleccionar todas aquellas casillas que no contienen una mina. Cada casilla indica el número de minas que hay en las casillas colindantes, de forma que se puede deducir que casillas tienen mina, y cuales no.</string>
+    <string name="elegir_num_jugadores">Elige el número de jugadores</string>
+    <string name="un_jugador">Un jugador</string>
+    <string name="dos_jugadores">Dos jugadores</string>
+    <string name="resultado_juego_completado">Buscaminas completado</string>
+    <string name="resultado_mina_pisada">Has pisado una mina</string>
+    <string name="nivel1">Nivel 1</string>
+    <string name="nivel2">Nivel 2</string>
+    <string name="nivel3">Nivel 3</string>
+    <string name="nivel4">Nivel 4</string>
+    <string name="nivel5">Nivel 5</string>
+    <string name="nivel6">Nivel 6</string>
+    <string name="nivel7">Nivel 7</string>
+    <string name="nivel8">Nivel 8</string>
+    <string name="generar_buscaminas">Generar</string>
+
+</resources>

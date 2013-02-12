@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondo1"
+    android:orientation="vertical"
+    android:padding="25sp" >
+
+    <TextView
+        android:id="@+id/texto_principal_programa"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:paddingBottom="100sp"
+        android:shadowRadius="10"
+        android:shadowColor="@color/blanco"
+        android:text="@string/texto_principal_programa"
+        android:textColor="@color/negro"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignLeft="@+id/texto_principal_programa"
+        android:layout_alignTop="@+id/texto_principal_programa"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/sudoku_boton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:gravity="center"
+            android:text="@string/juegos_sudoku" />
+
+        <Button
+            android:id="@+id/tres_en_raya_boton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:gravity="center"
+            android:text="@string/juegos_tres_en_raya" />
+
+        <Button
+            android:id="@+id/buscaminas_boton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:gravity="center"
+            android:text="@string/juegos_buscaminas" />
+
+        <Button
+            android:id="@+id/acerca_de_boton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:gravity="center"
+            android:text="@string/acerca_de" />
+    </LinearLayout>
+
+</RelativeLayout>

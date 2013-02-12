@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textoFinal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lines="3"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/jugar_de_nuevo_boton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jugar_de_nuevo"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/share_boton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_share"
+        android:visibility="visible" />
+
+</LinearLayout>

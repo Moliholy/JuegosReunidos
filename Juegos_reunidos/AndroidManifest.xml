@@ -1,0 +1,58 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="molina.resources"
+    android:versionCode="5"
+    android:versionName="3.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:icon="@drawable/sudoku_imagen"
+        android:label="@string/app_name" >
+        <activity
+            android:name="molina.main.MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="molina.main.SudokuMainActivity"
+            android:label="@string/title_activity_sudoku"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="molina.main.TresEnRayaMainActivity"
+            android:label="@string/title_activity_tres_en_raya"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="molina.main.BuscaminasMainActivity"
+            android:label="@string/title_activity_buscaminas"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="molina.sudoku.Sudoku"
+            android:label="@string/sudoku_main" >
+        </activity>
+        <activity
+            android:name="molina.sudoku.IntroduccionNumero"
+            android:label="@string/title_activity_introduccion_numero"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="molina.tresRaya.TresEnRaya"
+            android:label="@string/tres_en_raya_main" >
+        </activity>
+        <activity
+            android:name="molina.buscaminas.Buscaminas"
+            android:label="@string/title_activity_buscaminas"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>
