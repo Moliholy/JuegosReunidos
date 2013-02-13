@@ -44,52 +44,58 @@ public final class R {
         public static final int tres_en_raya_imagen=0x7f02000c;
     }
     public static final class id {
-        public static final int BuscaminasView=0x7f080006;
-        public static final int acerca_de_boton=0x7f080004;
-        public static final int boton_1=0x7f080010;
-        public static final int boton_2=0x7f080011;
-        public static final int boton_3=0x7f080012;
-        public static final int boton_4=0x7f080013;
-        public static final int boton_5=0x7f080014;
-        public static final int boton_6=0x7f080015;
-        public static final int boton_7=0x7f080016;
-        public static final int boton_8=0x7f080017;
-        public static final int boton_9=0x7f080018;
-        public static final int buscaminas_boton=0x7f080003;
-        public static final int continuar_boton_buscaminas=0x7f08000b;
-        public static final int continuar_boton_sudoku=0x7f08001d;
-        public static final int continuar_boton_tres_en_raya=0x7f080021;
-        public static final int crono=0x7f080008;
-        public static final int generar_buscaminas=0x7f080009;
-        public static final int instrucciones_boton_buscaminas=0x7f08000d;
-        public static final int instrucciones_boton_sudoku=0x7f08001f;
-        public static final int instrucciones_boton_tres_en_raya=0x7f080023;
-        public static final int introduccion_numeros=0x7f08000f;
-        public static final int juego_nuevo_boton_buscaminas=0x7f08000c;
-        public static final int juego_nuevo_boton_sudoku=0x7f08001e;
-        public static final int juego_nuevo_boton_tres_en_raya=0x7f080022;
-        public static final int jugar_de_nuevo_boton=0x7f08001a;
-        public static final int layout_buscaminas=0x7f080005;
-        public static final int numero_minas=0x7f080007;
-        public static final int share_boton=0x7f08001b;
-        public static final int sudoku_boton=0x7f080001;
-        public static final int textoFinal=0x7f080019;
-        public static final int texto_instrucciones=0x7f08000e;
-        public static final int texto_principal_buscaminas=0x7f08000a;
-        public static final int texto_principal_programa=0x7f080000;
-        public static final int texto_principal_sudoku=0x7f08001c;
-        public static final int texto_principal_tres_en_raya=0x7f080020;
-        public static final int tres_en_raya_boton=0x7f080002;
+        public static final int BuscaminasView=0x7f090007;
+        public static final int acerca_de_boton=0x7f090004;
+        public static final int boton_1=0x7f090011;
+        public static final int boton_2=0x7f090012;
+        public static final int boton_3=0x7f090013;
+        public static final int boton_4=0x7f090014;
+        public static final int boton_5=0x7f090015;
+        public static final int boton_6=0x7f090016;
+        public static final int boton_7=0x7f090017;
+        public static final int boton_8=0x7f090018;
+        public static final int boton_9=0x7f090019;
+        public static final int buscaminas_boton=0x7f090003;
+        public static final int continuar_boton_buscaminas=0x7f09000c;
+        public static final int continuar_boton_sudoku=0x7f09001e;
+        public static final int continuar_boton_tres_en_raya=0x7f090022;
+        public static final int crono=0x7f090009;
+        public static final int generar_buscaminas=0x7f09000a;
+        public static final int instrucciones_boton_buscaminas=0x7f09000e;
+        public static final int instrucciones_boton_sudoku=0x7f090020;
+        public static final int instrucciones_boton_tres_en_raya=0x7f090024;
+        public static final int introduccion_numeros=0x7f090010;
+        public static final int juego_nuevo_boton_buscaminas=0x7f09000d;
+        public static final int juego_nuevo_boton_sudoku=0x7f09001f;
+        public static final int juego_nuevo_boton_tres_en_raya=0x7f090023;
+        public static final int jugar_de_nuevo_boton=0x7f09001b;
+        public static final int layout_buscaminas=0x7f090006;
+        public static final int menu_settings=0x7f090025;
+        public static final int numero_minas=0x7f090008;
+        public static final int share_boton=0x7f09001c;
+        public static final int sudoku_boton=0x7f090001;
+        public static final int textoFinal=0x7f09001a;
+        public static final int texto_instrucciones=0x7f09000f;
+        public static final int texto_principal_buscaminas=0x7f09000b;
+        public static final int texto_principal_programa=0x7f090000;
+        public static final int texto_principal_sudoku=0x7f09001d;
+        public static final int texto_principal_tres_en_raya=0x7f090021;
+        public static final int tres_en_raya_boton=0x7f090002;
+        public static final int viewpager=0x7f090005;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int buscaminas_composicion=0x7f030001;
-        public static final int buscaminas_main=0x7f030002;
-        public static final int instrucciones=0x7f030003;
-        public static final int introduccion_numero=0x7f030004;
-        public static final int juego_terminado=0x7f030005;
-        public static final int sudoku_main=0x7f030006;
-        public static final int tres_en_raya_main=0x7f030007;
+        public static final int activity_view_pager=0x7f030001;
+        public static final int buscaminas_composicion=0x7f030002;
+        public static final int buscaminas_main=0x7f030003;
+        public static final int instrucciones=0x7f030004;
+        public static final int introduccion_numero=0x7f030005;
+        public static final int juego_terminado=0x7f030006;
+        public static final int sudoku_main=0x7f030007;
+        public static final int tres_en_raya_main=0x7f030008;
+    }
+    public static final class menu {
+        public static final int activity_view_pager=0x7f080000;
     }
     public static final class string {
         public static final int acerca_de=0x7f060004;
@@ -104,6 +110,7 @@ public final class R {
         public static final int elegir_dificultad=0x7f06000c;
         public static final int elegir_num_jugadores=0x7f060025;
         public static final int generar_buscaminas=0x7f060032;
+        public static final int hello_world=0x7f060033;
         public static final int instrucciones=0x7f060017;
         public static final int instrucciones_buscaminas=0x7f060024;
         public static final int instrucciones_sudoku_text=0x7f060016;
@@ -115,6 +122,7 @@ public final class R {
         public static final int juegos_sudoku=0x7f060012;
         public static final int juegos_tres_en_raya=0x7f060013;
         public static final int jugar_de_nuevo=0x7f06001d;
+        public static final int menu_settings=0x7f060034;
         public static final int nivel1=0x7f06002a;
         public static final int nivel2=0x7f06002b;
         public static final int nivel3=0x7f06002c;
@@ -139,6 +147,7 @@ public final class R {
         public static final int title_activity_main=0x7f060007;
         public static final int title_activity_sudoku=0x7f060008;
         public static final int title_activity_tres_en_raya=0x7f06000a;
+        public static final int title_activity_view_pager=0x7f060035;
         public static final int title_juego_terminado=0x7f06001c;
         public static final int title_share=0x7f06001e;
         public static final int tres_en_raya_main=0x7f060011;

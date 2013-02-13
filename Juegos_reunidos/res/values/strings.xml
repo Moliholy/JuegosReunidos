@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <string name="app_name">JUEGOS REUNIDOS</string>
@@ -51,5 +52,8 @@
     <string name="nivel7">Nivel 7</string>
     <string name="nivel8">Nivel 8</string>
     <string name="generar_buscaminas">Generar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_view_pager">ViewPagerActivity</string>
 
 </resources>

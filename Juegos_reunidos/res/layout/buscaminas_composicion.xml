@@ -35,7 +35,7 @@
             android:lines="1"
             android:paddingLeft="5dp"
             android:textColor="@color/blanco"
-            android:textSize="30dp" />
+            android:textSize="30sp" />
 
         <molina.widget.cronometro.Cronometro
             android:id="@+id/crono"
@@ -45,7 +45,7 @@
             android:background="@color/negro"
             android:gravity="center"
             android:textColor="@color/blanco"
-            android:textSize="30dp" />
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/generar_buscaminas"
