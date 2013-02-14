@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">JUEGOS REUNIDOS</string>
+    <string name="app_name">Juegos Reunidos</string>
     <string name="texto_principal_tres_en_raya">TRES EN RAYA</string>
     <string name="continuar">CONTINUAR</string>
     <string name="juego_nuevo">JUEGO NUEVO</string>

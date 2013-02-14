@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="molina.resources"
     android:installLocation="preferExternal"
-    android:versionCode="5"
-    android:versionName="3.0" >
+    android:versionCode="6"
+    android:versionName="4.0" >
 
     <uses-sdk
         android:minSdkVersion="7"
@@ -16,30 +16,36 @@
         <activity
             android:name="molina.main.MainActivity"
             android:label="@string/title_activity_main"
+            android:configChanges="orientation"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
         </activity>
         <activity
             android:name="molina.main.SudokuMainActivity"
             android:label="@string/title_activity_sudoku"
+            android:configChanges="orientation"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
         </activity>
         <activity
             android:name="molina.main.TresEnRayaMainActivity"
             android:label="@string/title_activity_tres_en_raya"
+            android:configChanges="orientation"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
         </activity>
         <activity
             android:name="molina.main.BuscaminasMainActivity"
             android:label="@string/title_activity_buscaminas"
+            android:configChanges="orientation"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
         </activity>
         <activity
             android:name="molina.sudoku.Sudoku"
             android:label="@string/sudoku_main"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
         </activity>
         <activity
@@ -55,13 +61,16 @@
         <activity
             android:name="molina.buscaminas.Buscaminas"
             android:label="@string/title_activity_buscaminas"
+            android:configChanges="orientation"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
         </activity>
         <activity
             android:name="molina.viewpager.ViewPagerActivity"
             android:label="@string/title_activity_view_pager"
-            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PageIndicatorDefaults" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

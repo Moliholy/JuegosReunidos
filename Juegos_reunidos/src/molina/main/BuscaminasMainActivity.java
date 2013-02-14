@@ -38,7 +38,8 @@ public class BuscaminasMainActivity extends Activity implements OnClickListener 
 
 	public void onClick(View v) {
 		Intent i;
-		switch (v.getId()) {
+		int id = v.getId();
+		switch (id) {
 		case R.id.continuar_boton_buscaminas:
 			i = new Intent(this, Buscaminas.class);
 			i.putExtra(Buscaminas.CONTINUAR, true);

@@ -1,7 +1,9 @@
 package molina.sudoku;
 
-import molina.ia.generadorSudokus.*;
-import molina.mensajes.juegoTerminado.*;
+import molina.ia.generadorSudokus.Dificultad;
+import molina.ia.generadorSudokus.GeneradorSudoku;
+import molina.mensajes.juegoTerminado.JuegoTerminado;
+import molina.resources.R;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.SharedPreferences.Editor;
@@ -26,7 +28,8 @@ public class Sudoku extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		tablero = new SudokuView(this);
+		setContentView(R.layout.sudoku_composicion);
+		tablero = (SudokuView) findViewById(R.id.SudokuView);
 		boolean continuar = getIntent().getExtras().getBoolean(CONTINUAR);
 		if (!continuar) {
 			dificultad = establecerDificultad(getIntent().getExtras().getInt(
@@ -47,7 +50,7 @@ public class Sudoku extends Activity {
 			if (numeros == null || solucion == null)
 				finish();
 		}
-		setContentView(tablero);
+
 	}
 
 	@Override

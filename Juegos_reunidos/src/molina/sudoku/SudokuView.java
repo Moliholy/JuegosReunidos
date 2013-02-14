@@ -7,11 +7,12 @@ import android.graphics.Paint;
 import android.graphics.Paint.FontMetrics;
 import android.graphics.Paint.Style;
 import android.graphics.Rect;
+import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
 public class SudokuView extends View {
-	private final Sudoku sudoku;
+	private Sudoku sudoku;
 	private float anchuraCasilla;
 	private float alturaCasilla;
 	private static final int ID = 42;
@@ -24,8 +25,7 @@ public class SudokuView extends View {
 	private final Paint paintNumeros = new Paint(Paint.ANTI_ALIAS_FLAG);
 	private final Paint seleccion = new Paint();
 
-	public SudokuView(Context context) {
-		super(context);
+	private void init(Context context) {
 		sudoku = (Sudoku) context;
 
 		// lineas a dibujar
@@ -44,6 +44,21 @@ public class SudokuView extends View {
 		// para que se puerda tocar la pantalla táctil
 		setFocusable(true);
 		setFocusableInTouchMode(true);
+	}
+
+	public SudokuView(Context context) {
+		super(context);
+		init(context);
+	}
+
+	public SudokuView(Context context, AttributeSet attrs, int defStyle) {
+		super(context, attrs, defStyle);
+		init(context);
+	}
+
+	public SudokuView(Context context, AttributeSet attrs) {
+		super(context, attrs);
+		init(context);
 	}
 
 	@Override
@@ -67,19 +82,26 @@ public class SudokuView extends View {
 		// lienzo (Canvas) que nos viene como parámetro
 		canvas.drawRect(0, 0, getWidth(), getHeight(), fondoSudoku);
 		// 2º) Dibujamos las rectas divisorias
+		//primero las grises
 		for (int i = 0; i <= Sudoku.TAM; i++) {
 			if (i % 3 != 0) {
 				// horizontales
-				canvas.drawLine(0, i * alturaCasilla, getWidth(), i
-						* alturaCasilla, negroSuave);
+				canvas.drawLine(0, Math.max(i * alturaCasilla - 1, 0),
+						getWidth(), Math.max(i * alturaCasilla - 1, 0),
+						negroSuave);
 				// verticales
-				canvas.drawLine(i * anchuraCasilla, 0, i * anchuraCasilla,
-						getHeight(), negroSuave);
-			} else {
-				canvas.drawLine(i * anchuraCasilla, 0, i * anchuraCasilla,
-						getHeight(), blanco);
-				canvas.drawLine(0, i * alturaCasilla, getWidth(), i
-						* alturaCasilla, blanco);
+				canvas.drawLine(Math.max(i * anchuraCasilla - 1, 0), 0,
+						Math.max(i * anchuraCasilla - 1, 0), getHeight(),
+						negroSuave);
+			}
+		}
+		//y luego las blancas
+		for (int i = 0; i <= Sudoku.TAM; i++) {
+			if (i % 3 == 0) {
+			canvas.drawLine(Math.max(i * anchuraCasilla - 1, 0), 0,
+					Math.max(i * anchuraCasilla - 1, 0), getHeight(), blanco);
+			canvas.drawLine(0, Math.max(i * alturaCasilla - 1, 0), getWidth(),
+					Math.max(i * alturaCasilla - 1, 0), blanco);
 			}
 		}
 

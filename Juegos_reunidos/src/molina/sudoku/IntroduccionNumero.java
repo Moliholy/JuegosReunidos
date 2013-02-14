@@ -12,6 +12,11 @@ public class IntroduccionNumero extends Dialog {
 	private Sudoku sudoku;
 	private int fila;
 	private int columna;
+
+	public IntroduccionNumero(Context context) {
+		super(context);
+	}
+
 	private final View[] botones = new View[9];
 
 	@Override

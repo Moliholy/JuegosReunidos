@@ -72,7 +72,8 @@ public class JuegoTerminado extends Dialog implements
 	}
 
 	public void onClick(View v) {
-		switch (v.getId()) {
+		int id = v.getId();
+		switch (id) {
 		case R.id.jugar_de_nuevo_boton:
 			if (key == TresEnRaya.KEY) {
 				TresEnRaya act = (TresEnRaya) context;
